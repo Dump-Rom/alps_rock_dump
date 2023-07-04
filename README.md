@@ -1,0 +1,19 @@
+## missi-user 12 SP1A.210812.016 V13.0.12.0.SLUINXM release-keys
+- Manufacturer: xiaomi
+- Platform: common
+- Codename: rock
+- Brand: alps
+- Flavor: missi-user
+- Release Version: 12
+- Kernel Version: 5.10.101
+- Id: SP1A.210812.016
+- Incremental: V13.0.12.0.SLUINXM
+- Tags: release-keys
+- CPU Abilist: arm64-v8a,armeabi-v7a,armeabi
+- A/B Device: true
+- Locale: en-GB
+- Screen Density: 560
+- Fingerprint: alps/mihal/mihal:12/SP1A.210812.016/V13.0.12.0.SLUINXM:user/release-keys
+- OTA version: 
+- Branch: missi-user-12-SP1A.210812.016-V13.0.12.0.SLUINXM-release-keys
+- Repo: alps_rock_dump
