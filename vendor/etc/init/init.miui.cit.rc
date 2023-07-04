@@ -1,0 +1,19 @@
+service hqreadsvc /vendor/bin/hqread_vndr atcmd
+    class main
+    user root
+    disabled
+    oneshot
+    group root system
+
+on property:sys.hqread.trigger=1
+    start hqreadsvc
+
+on property:sys.sarcali.trigger=1
+    start sarcalisvc
+
+service sarcalisvc /vendor/bin/sns_sensors_test_and_cal -c 72,3,50000000,0
+    class main
+    user root
+    disabled
+    oneshot
+    group root system

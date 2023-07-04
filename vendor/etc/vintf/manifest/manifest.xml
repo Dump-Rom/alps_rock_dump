@@ -1,0 +1,14 @@
+<manifest version="1.0" type="device">
+    <hal format="hidl">
+        <name>vendor.xiaomi.hardware.touchfeature</name>
+        <transport>hwbinder</transport>
+        <!--L19A code for HQ-213948 by machengli at 20220531 start-->
+        <!--<impl level="generic"></impl>-->
+        <!--L19A code for HQ-213948 by machengli at 20220531 end-->
+        <version>1.0</version>
+        <interface>
+            <name>ITouchFeature</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+</manifest>
