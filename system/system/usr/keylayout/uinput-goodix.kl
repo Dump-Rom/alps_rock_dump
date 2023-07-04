@@ -1,0 +1,11 @@
+##################################
+#
+#add for goodix fingerprints
+#
+##################################
+# L19A code for HQ-194229 by xiongwei at 22.5.10 start
+#single click
+key 353   DPAD_CENTER VIRTUAL
+#double click
+key 306   BUTTON_C VIRTUAL
+# L19A code for HQ-194229 by xiongwei at 22.5.10 end

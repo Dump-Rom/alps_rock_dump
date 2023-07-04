@@ -1,0 +1,4 @@
+ro.mediatek.rsc_name=rock_p_in
+ro.sys.current_rsc_path=/system/etc/rsc/rock_p_in
+ro.product.current_rsc_path=/product/etc/rsc/rock_p_in
+ro.sys_ext.current_rsc_path=/system/system_ext/etc/rsc/rock_p_in
